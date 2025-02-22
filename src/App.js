@@ -123,6 +123,7 @@ function App() {
             <option value="de">German</option>
             <option value="ja">Japanese</option>
             <option value="hi">Hindi</option>
+            <option value="en">English</option>
           </select>
           <button onClick={handleTranslate} className="ml-2 px-4 py-2 bg-green-500 text-white rounded">Translate</button>
           <p className="mt-4"><strong>Translated Text:</strong> {translated}</p>
